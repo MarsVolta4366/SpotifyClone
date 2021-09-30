@@ -17,8 +17,86 @@
     color: white !important;
 }
 
-.container {
+.vertical-center {
     background-color: #2941AB;
-    width: 100%;
-    margin: 0 !important;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.dropdown {
+    border-left: 1px solid white;
+}
+
+h1 {
+    color: #1ED760;
+    font-size: 6em;
+    font-weight: bold;
+}
+
+p {
+    color: #1ED760;
+    font-size: 1.2em;
+}
+
+input {
+    background-color: #1ED760;
+    color: #2941AB;
+    padding: 15px;
+    border-radius: 50px;
+    border: none;
+    font-weight: bold;
+}
+
+#bottomNav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+#bottomLogo {
+    width: 200px;
+    position: relative;
+    bottom: 100px;
+}
+
+.bottomLinks {
+    width: 500px;
+    position: relative;
+    top: 40px;
+}
+
+dl {
+    margin: 20px;
+}
+
+#socialMedia {
+    width: 200px;
+    position: relative;
+    bottom: 105px;
+}
+
+#socialMedia li {
+    margin: 10px;
+} 
+
+#country a {
+    padding: 0 0 0 7px;
+}
+
+#country {
+    display: inline-block;
+}
+
+#footerNav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    padding-bottom: 10px;
 }

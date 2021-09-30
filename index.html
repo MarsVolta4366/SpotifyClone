@@ -33,7 +33,7 @@
     </header>
 
     <main>
-        <div class="container">
+        <div class="container-fluid vertical-center">
             <h1>Jump back in</h1>
             <p>Pick up your music right where you left off.</p>
             <input type="button" value="OPEN WEB PLAYER">
@@ -41,102 +41,102 @@
     </main>
 
     <footer>
-        <nav>
-            <div>
-                <a href="#"><i class="fab fa-spotify"></i></a>
-                <a href="#">Spotify</a>
+        <nav class="navbar navbar-expand-lg navbar-dark" id="bottomNav">
+            <div id="bottomLogo">
+                <a href="#" class="navbar-brand"><i class="fab fa-spotify"></i></a>
+                <a href="#" class="navbar-brand">Spotify</a>
             </div>
 
-            <div>
+            <div class="navbar-nav mr-auto" class="bottomLinks">
                 <dl>
                     <dt>COMPANY</dt>
-                    <dd>
-                        <a href="#">About</a>
+                    <dd class="nav-item active">
+                        <a href="#" class="nav-link">About</a>
                     </dd>
-                    <dd>
-                        <a href="#">Jobs</a>
+                    <dd class="nav-item active">
+                        <a href="#" class="nav-link">Jobs</a>
                     </dd>
-                    <dd>
-                        <a href="#">For the Record</a>
+                    <dd class="nav-item active">
+                        <a href="#" class="nav-link">For the Record</a>
                     </dd>
                 </dl>
 
                 <dl>
                     <dt>COMMUNITIES</dt>
-                    <dd>
-                        <a href="#">For Artists</a>
+                    <dd class="nav-item active">
+                        <a href="#" class="nav-link">For Artists</a>
                     </dd>
-                    <dd>
-                        <a href="#">Developers</a>
+                    <dd class="nav-item active">
+                        <a href="#" class="nav-link">Developers</a>
                     </dd>
-                    <dd>
-                        <a href="#">Advertising</a>
+                    <dd class="nav-item active">
+                        <a href="#" class="nav-link">Advertising</a>
                     </dd>
-                    <dd>
-                        <a href="#">Investors</a>
+                    <dd class="nav-item active">
+                        <a href="#" class="nav-link">Investors</a>
                     </dd>
-                    <dd>
-                        <a href="#">Vendors</a>
+                    <dd class="nav-item active">
+                        <a href="#" class="nav-link">Vendors</a>
                     </dd>
                 </dl>
 
                 <dl>
                     <dt>USEFUL LINKS</dt>
-                    <dd>
-                        <a href="#">Support</a>
+                    <dd class="nav-item active">
+                        <a href="#" class="nav-link">Support</a>
                     </dd>
-                    <dd>
-                        <a href="#">Web Player</a>
+                    <dd class="nav-item active">
+                        <a href="#" class="nav-link">Web Player</a>
                     </dd>
-                    <dd>
-                        <a href="#">Free Mobile App</a>
+                    <dd class="nav-item active">
+                        <a href="#" class="nav-link">Free Mobile App</a>
                     </dd>
                 </dl>
             </div>
 
             <!-- SOCIAL MEDIA -->
-            <div>
-                <ul>
+            <div id="socialMedia">
+                <ul class="navbar-nav mr-auto">
                     <li>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="btn btn-primary btn-lg btn-floating"><i class="fab fa-instagram"></i></a>
                     </li>
                     <li>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="btn btn-primary btn-lg btn-floating"><i class="fab fa-twitter"></i></a>
                     </li>
                     <li>
-                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="btn btn-primary btn-lg btn-floating"><i class="fab fa-facebook"></i></a>
                     </li>
                 </ul>
             </div>
-
-            <!-- COUNTRY -->
-            <div>
-                <a href="#" class="navbar-brand"><i class="fas fa-globe-asia"></i>USA</a>
-            </div>
-
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark" id="footerNav">
             <!-- BOTTOM LINKS -->
             <div>
-                <ul>
-                    <li>
-                        <a href="#">Legal</a>
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link">Legal</a>
                     </li>
-                    <li>
-                        <a href="#">Privacy Center</a>
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link">Privacy Center</a>
                     </li>
-                    <li>
-                        <a href="">Privacy Policy</a>
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link">Privacy Policy</a>
                     </li>
-                    <li>
-                        <a href="">Cookies</a>
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link">Cookies</a>
                     </li>
-                    <li>
-                        <a href="#">About Ads</a>
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link">About Ads</a>
                     </li>
-                    <li>
-                        <a href="#">Additional CA Privacy Disclosures</a>
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link">Additional CA Privacy Disclosures</a>
                     </li>
                 </ul>
-                <span>© 2021 Spotify AB</span>
+                <!-- COUNTRY -->
+                <div id="country" class="nav-item active">
+                    <a href="#" class="nav-link"><i class="fas fa-globe-asia"></i> USA</a>
+                    <a href="#" class="nav-link">© 2021 Spotify AB</a>
+                </div>
             </div>
         </nav>
     </footer>
